@@ -1,0 +1,27 @@
+<h1>Calculo del tiempo serial</h1>
+
+<h2>Introducción:</h2>
+
+<p>Antes de empezar, es importante entender a que nos referimos con tiempo serial. Podemos fijar un momento, atravez de la hora, día, mes y año que lo identifica. Pero puede también utilizar una convención que nos diga el numero de horas, que pasaron desde una fecha de referencia. A esta manera de contar el tiempo es a lo que se llama tiempo serial. Un solo numero identifica la fecha hora minutos y segundos de un dado evento.</p>
+
+<p>Vamos a explicar como calcular la hora serial a partir de una fecha de referencia y como volver a obtener la fecha a partir de la hora serial. </p>
+
+<p class="centrado"><img border="0" src="./images/date/date1.gif" width="482" height="53"></p>
+
+<p>Donde <i>Ndai</i> es el Nro de días para el año i, y <i>Ndmi(año,a0)</i> es el Nro de días para el mes i, dado el año. Los cálculos pueden simplificarse bastante si tomamos h0=0, d0=1 y m0=1, esto es la hora 0 del primero de enero. Y debe recordarse que <i>Ndai</i> tomara el valor 366 si el años es bisiesto y 365 en cualquier otro caso </p>
+
+<p class="centrado"><img border="0" src="./images/date/date2.gif" width="120" height="48"></p>
+
+<p>Supongamos que tenemos Nan años normales y Nab  años bisiestos, entonces la suma sería:</p>
+
+<p class="centrado"><img border="0" src="./images/date/date3.gif" width="152" height="24"></p>
+
+<p>Y al mismo tiempo:</p>
+
+<p class="centrado"><img border="0" src="./images/date/date4.gif" width="213" height="53"></p>
+
+<p class="centrado"><img border="0" src="./images/date/date5.gif" width="152" height="24"></p>
+
+<p class="centrado"><img border="0" src="./images/date/date6.gif" width="338" height="53"></p>
+
+<p>La cantidad de días en un conjunto de meses se calculan de la forma usual. Teniendo en cuenta si el año es bisiesto o no.</p>

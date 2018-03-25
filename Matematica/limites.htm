@@ -1,0 +1,75 @@
+<h1>Límites(funciones de una variable)</h1>
+
+<h2>Límites en infinito:</h2>
+
+<p>Se puede definir el límite cuando <i>x</i> tiende a infinito de una función como el valor al cual se acerca la función cuando tomamos valores muy grandes de <i>x</i> así también se puede definir el limite cuando <i>x</i> tiende a menos infinito como el valor al cual se acerca a la imagen de la función para <i>x</i> negativos de modulo muy grande. Tomemos como ejemplo la función 1/<i>x</i> si consideramos valores de <i>x</i> muy grandes sean estos positivos o negativos la función toma valores cada vez mas chicos mientras más grande sea el valor de <i>x</i> mas chica será la imagen de 1/<i>x,</i> es decir la imagen se acercara cada vez mas a cero (tendera a cero). Entonces decimos que el límite cuando <i>x</i> tiende a &infin; de 1/<i>x</i> es 0. Miremos el gráfico a
+continuación para aclarar las ideas.</p>
+
+<p class="centrado"><img src="./images/limites/lmites1.gif"
+width="560" height="420"></p>
+
+<p>En el gráfico se puede ver como para <i>x</i> grandes la curva se acerca a cero. Sin embargo notar que para <i>x &rarr; +&infin;</i> la función se acerca a cero siempre por valores mayores a cero esto se nota 0<sup>+</sup>, y para <i>x &rarr; -&infin;</i> se acerca a cero por los valores menores que cero esto se nota 0<sup>-</sup></p>
+<p>Ahora uno podría generalizar este resultado, si calculamos el límite cuando <i>x</i> tiende a &infin; de una función que se puede escribir como una constante sobre algo que toma valores arbitrariamente grandes (tiende a infinito) diremos que esta función tiende a cero ya que el cociente para <i>x</i> grande se hace arbitrariamente pequeño.</p>
+
+<p>Consideremos por ejemplo 2 <sup>x</sup> es una función creciente, cuando tomamos valores grandes de <i>x</i> la función tiende a +&infin; con esto queremos decir que la imagen de 2 <sup>x</sup> alcanza valores arbitrariamente grandes para <i>x</i> grande. Ahora si consideramos la función 1/2 <sup>x</sup> veremos que estamos haciendo el cociente entre un numero constante y una función que toma valores cada vez más grandes cuanto mayor sea el valor de <i>x</i>, entonces el límite cuando <i>x</i> tiende a mas infinito de 1/ 2 <sup>x</sup> es cero.</p>
+
+<p>Gráficamente es sencillo calcular los limites en infinito, veamos el siguiente ejemplo:</p>
+
+<p class="centrado"><img src="./images/limites/lmites2.gif"
+width="560" height="420"></p>
+
+<p>Como se puede ver en este caso, el límite cuando <i>x</i> tiende a +<a class="simb">&infin;</a>de la función es 3<sup>-</sup> (el menos indica que nos acercamos con valores menores a 3 y el límite cuando <i>x</i> tiende a -&infin; es +&infin;(En este caso se dice que la función diverge en -&infin;)</p>
+
+<h2>Definición formal de Límites:</h2>
+
+<p>Definición límite en infinito positivo:</p>
+
+<p>Límite cuando <i>x</i> &rarr; +&infin; de <i>f(x)</i> es igual a b si y solo si dado un &epsilon; mayor que cero existe <i>M positivo</i> tal
+que si <i>x &gt; M</i> entonces : |<i>f(M)-b</i>| &lsaquo; &epsilon;
+
+<p>Definición límite en infinito negativo:</p>
+
+<p>Límite cuando <i>x</i> &rarr; -&infin; de <i>f(x)</i> es igual a b si y solo si dado un &epsilon;  mayor que cero existe <i>M</i>  positivo talque si <i>x &lt; -M</i> entonces |<i>f(M)-b</i>| &lsaquo; &epsilon;
+
+<h2>Ejemplo de cálculo de límite por definición:</h2>
+
+<p>Demostrar que el límite cuando <i>x &rarr; +&infin;</i> de <i>f(x)</i> = <i>2+3/x</i> es 2.</a></p>
+
+<p>Queremos ver que existe un M tal que se satisfaga la definición para un epsilon arbitrario. Por lo tanto tenemos que tratar de acotar</p>
+<p class=centrado><i>|2+3/x-2|</i></p>
+
+<p>Primero cabe observar que se pueden cancelar los 2 resultando</p>
+<p class=centrado><i>|3/x|</i></p>
+
+<p>Ahora</p>
+<p class=centrado><i>|3/x| &lt; 3/M</i></p>
+
+<p>Si pedimos que sea menor a epsilon</p>
+<p class=centrado><i>|3/x| &lt; 3/M &lt; &epsilon; </i></p>
+
+<p>Entonces basta con elegir <i>M &gt; 3/&epsilon;</i> para que se satisfaga la condición anterior</p>
+
+
+<h2>Límites en un Punto:</h2>
+
+<p>Se puede definir el límite cuando <i>x</i> tiende a un número cualquiera de una función como el valor al cual se acerca la misma cuando tomamos valores muy cercanos a este número de <i>x</i> .Ahora a diferencia con los límites en infinito, uno se puede acercar a un punto por números mayores a él o menores y la función no tiene por que tener el mismo comportamiento en ambos casos (A estos se los llaman límites laterales). Tomemos como ejempló la función 1/<i>x</i> si consideramos valores de <i>x</i> cercanos a 0 la función toma valores muy grandes entonces se dice que tiende a infinito como se puede ver en la sección anterior. Pero hay que distinguir los casos en los que nos acercamos a 0 por números menores a él y los que nos acercamos por números mayores que él, en un caso la función toma valores muy grandes positivos y en el otro negativos por lo tanto tiende a mas o menos infinito según por donde nos acerquemos. Esto se escribe formalmente como.</p>
+
+<p class="centrado"><img src="./images/limites2/Limites21.gif"
+height="50" width="221"></p>
+
+<p>Entonces uno no debería hablar de límites sino de límites laterales en un punto. Pero en muchos casos los límites laterales son iguales, cuando esto ocurre y solo cuando esto ocurre se habla de límite a secas. Como por ejemplo el límite cuando x tiende a 2 de f(x)=3x+7. Se puede observar que cuando x esta cerca de 2, f(x) esta cerca de f(2) es decir de 13, independientemente de si uno se acerca por derecha u izquierda. En muchos casos, como en este el cálculo del límite se reduce entonces a reemplazar el número en la función. Pero esto no siempre es así, hay un funciones que no están definidas en el punto que se quiere calcular el límite como por ejemplo.</p>
+
+<p class="centrado"><img src="./images/limites2/Limites22.gif"
+height="45" width="81"></p>
+
+<p>Se ve claramente que la función no esta definida en x=1, cuando esto ocurre se dice que el límite es indeterminado. En este caso tanto el numerador como el denominador son cero en x=1 y como no se puede realizar el cociente 0/0 no se puede simplemente reemplazar en la función el punto. Lo que se hace es tratar de mediante operaciones algebraicas llegar a una expresión en la que no aparezca la indeterminación como se hacía en los límites en infinito. Las indeterminaciones mas comunes son.</p>
+
+<p class="centrado"><img src="./images/limites2/Limites23.gif"
+height="41" width="196"></p>
+
+<p>Es importante que se entienda que cuando hablamos de indeterminaciones estamos hablando de limites, con esto lo que quiero decir es que por ejemplo que algo que tiende a 1 elevado a una potencia que tiende a infinito es indeterminado en principio. Pero si lo que tenemos es el número constante 1 elevado a una potencia que tiende a infinito esto no es una indeterminación pués el número constante 1 elevado a la potencia que sea seguirá siendo 1.</p>
+
+<h2>Definición formal de Límites:</h2>
+
+<p>Límite cuando <i>x</i> &rarr; a de
+<i>f(x)</i> es igual a b si dado un &epsilon; mayor que cero existe un &delta; tal que si. |<i>x-a</i>| &lt;  &delta; &rArr; |<i>f(x)-b</i>| &lt; &epsilon;

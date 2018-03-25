@@ -1,0 +1,68 @@
+<h1>Calculo de &pi;</h1>
+
+<h2>Introducción:</h2>
+
+<p>Utilizando conocimientos básicos de calculo se puede obtener un valor aproximado de &pi;. Se trata de un procedimiento sencillo pero que requiere en la practica un gran numero de operacionespara obtener unos pocos decimales correctos. Hay procedimientos mas eficientes pero este en particular requiere tan solo de conocimientos básicos de análisis matemático.</p>
+
+<h2>Conocimientos Necesarios:</h2>
+
+<p><a href="./index.php?sub=mat&pag=derivadas"><b>Derivadas.</b></a></p>
+
+<p><b>Series.</b></p>
+
+<p><a href="./index.php?sub=mat&pag=mattay"><b>Polinomio de Taylor.</b></a></p>
+
+<p><b>Convergencia de series alternadas</b></p>
+
+<h2>Resolución:</h2>
+
+<p>Consideremos la función f(x) = arctan(x) si evaluamos f en x =1, veremos que f(1) = &pi;/4, luego si podemos aproximar f(1) por otra función mas fácil de calcular, entonces podremos obtener cuanto en forma aproximada vale &pi;. Para ello utilizamos la serie de Taylor (S(x)) en x = 0 evaluada en x = 1.</p>
+
+<p class="centrado"><img border="0" src=
+"./images/matpi1/img001.gif" width="575" height="63"></p>
+
+<p>Derivando <i>arctg</i>(<i>x</i>) hasta el orden n
+obtenemos:</p>
+
+<p class="centrado"><img border="0" src=
+"./images/matpi1/img002.gif" width="94" height="35"></p>
+
+<p class="centrado"><img border="0" src=
+"./images/matpi1/img003.gif" width="139" height="63"></p>
+
+<p class="centrado"><img border="0" src=
+"./images/matpi1/img004.gif" width="162" height="60"></p>
+
+<p class="centrado"><img border="0" src=
+"./images/matpi1/img005.gif" width="166" height="57"></p>
+
+<p class="centrado"><img border="0" src=
+"./images/matpi1/img006.gif" width="151" height="49"></p>
+
+<p class="centrado"><img border="0" src=
+"./images/matpi1/img007.gif" width="150" height="53"></p>
+
+<p>En general se obtiene que :</p>
+
+<p class="centrado"><img border="0" src=
+"./images/matpi1/img008.gif" width="536" height="63"></p>
+
+<p class="centrado">n =0,1,2,3,4,5,6,...........</p>
+
+<p>Por lo tanto:</p>
+
+<p><img border="0" src="./images/matpi1/img009.gif" width="237"
+height="53"></p>
+
+<p>Si evaluamos S en 1</p>
+
+<p><img border="0" src="./images/matpi1/img010.gif" width="199"
+height="50"></p>
+
+<p>La suma converge por el criterio Leibnitz para series alternadas. Para obtener 2 decimales correctos hay que sumar hasta el orden 1217, es decir sumar 609 veces, por ello podemos decir que se trata de un proceso costoso. Sumando hasta el orden 1217 obtenemos el siguiente valor:</p>
+
+<p>S(1) = 3.14323468860774</p>
+
+<p>&pi;=3.14159265358979</p>
+
+<p>Como se puede ver S(1) ajusta bien al valor de &pi; a hasta el segundo decimal, se puede mejorar el cálculo si sigue sumando. Pero en general se utilizan procesos más eficientes.</p>
