@@ -21,8 +21,10 @@
 		];
 		$alglinks = [
 			'matpi1' => ["Cálculo de Pi","./Algoritmos/matpi1.htm","Breve descripción de un algoritmo para calcular Pi"],
-			'datealg' => ["Date","./Algoritmos/datealg.htm","Breve descripción introductoria del algoritmo utilizado en la librería libdate."],
-			'1' => ["Código de calculo de pi", "./Descargas/CalculoDePi.zip", "Breve descripción introductoria del algoritmo utilizado en la librería libdate."],
+			'datealg' => ["Date","./Algoritmos/datealg.htm","Breve descripción introductoria del algoritmo utilizado en la librería libdate"],
+			'0' => ["Cálculo de Pi en C#","https://github.com/Debrec/calcpi","Versión de calculo de pi en C# alojada en github"],
+			'1' => ["Código de cálculo de pi", "./Descargas/CalculoDePi.zip", "Código fuente del programa para calcular pi en c++"],
+			'2' => ["Código de libdate","./Descargas/LibDate.zip","Código fuente de libdate en c++"],
 		];
 
     function titulo($pag, $sub) {
