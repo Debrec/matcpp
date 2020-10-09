@@ -8,11 +8,11 @@
 
 <p class="centrado"><img src="./images/Integrales/Integrales1.gif" height="50"></p>
 
-<p> Donde F(x) se llama primitiva de <kurz>f(x)</kurz>. Las primitivas al ser funciones que al derivarlas dan la función original, están definidas a menos de una constante. Entonces sean F(x) y G(x) dos primitivas de <kurz>f(x)</kurz> estas a lo sumo difieren en una constante aditiva.</p>
+<p> Donde F(x) se llama primitiva de <i>f(x)</i>. Las primitivas al ser funciones que al derivarlas dan la función original, están definidas a menos de una constante. Entonces sean F(x) y G(x) dos primitivas de <i>f(x)</i> estas a lo sumo difieren en una constante aditiva.</p>
 
 <p class="centrado"><img src="./images/Integrales/Integrales2.gif" height="50"></p>
 
-<p>Puesto que puede demostrarse que al derivar ambos miembros, la constante se anula, quedando tan solo las derivadas de las primitivas que son identicamente <kurz>f(x)</kurz></p>
+<p>Puesto que puede demostrarse que al derivar ambos miembros, la constante se anula, quedando tan solo las derivadas de las primitivas que son identicamente <i>f(x)</i></p>
 
 <h2>Algunos ejemplos de primitivas</h2>
 
@@ -34,6 +34,21 @@
 <p class="centrado"><img src="./images/Integrales/Integrales3.gif" height="50"></p>
 <p class="centrado"><img src="./images/Integrales/Integrales4.gif" height="50"></p>
 
+<h2>Método de sustitución</h2>
+
+<p>Si tenemos una función que puede escribirse como una función compuesta <i>f(g(x))</i> por la derivada de la función interior <i>g'(x)</i>. Se puede reemplazar <i>u=g(x)</i> y <i>du = g'(x)dx</i> pudiendose integrar 
+utilizando la tabla de integración.</p> 
+
+<p>Por ejemplo en la siguiente integral aplicando el método de sustitución se convierte la integral en <i>x</i> en una integral en <i>u</i> mas simple</p>
+
+<p class="centrado"><img src="./images/Integrales/Integrales9.png" height="70"></p>
+
+<h2>Ejemplo:</h2>
+<p class="centrado"><img src="./images/Integrales/Integrales10.png" height="70"></p>
+
+<p>Sustituyendo <i>u = x<sup>2</sup></i> queda <i>du = 2x dx</i>. Pudiendose realizar la integral de forma trivial.</p>
+<p>Entonces la primitiva es <i>F(x) = exp(x<sup>2</sup>)</i></p> 
+
 <h2>Método de integración por partes</h2>
 
 <p>Recordando la derivada del producto de dos funciones</p>
@@ -46,7 +61,7 @@
 <p>Y recordando que la integral de una derivada es la función original y despejando una de las integrales de la derecha</p>
 <p class="centrado"><img src="./images/Integrales/Integrales7.gif" height="50"></p>
 
-<p> Como funciona este método, supongamos que tenemos la función <kurz>h(x)=xln(x)</kurz>. Suponemos que <kurz>h(x)=f(x)'g(x)</kurz> entonces tomemos <kurz>f(x)'=x</kurz> por que x lo sabemos integrar. Y tomemos <kurz>g(x)=ln(x)</kurz>. Entonces rápidamente de la tabla de derivadas e integrales vemos que <kurz>f(x)=x<sup>2</sup>/2</kurz>
-y <kurz>g(x)'=1/x</kurz>. A partir de el método de integración por partes se observa :</p>
+<p> Como funciona este método, supongamos que tenemos la función <i>h(x)=xln(x)</i>. Suponemos que <i>h(x)=f(x)'g(x)</i> entonces tomemos <i>f(x)'=x</i> por que x lo sabemos integrar. Y tomemos <i>g(x)=ln(x)</i>. Entonces rápidamente de la tabla de derivadas e integrales vemos que <i>f(x)=x<sup>2</sup>/2</i>
+y <i>g(x)'=1/x</i>. A partir de el método de integración por partes se observa :</p>
 
 <p class="centrado"><img src="./images/Integrales/Integrales8.gif" height="50"></p>
