@@ -46,6 +46,14 @@ h1.subt {margin-right:0;	margin-left:15px;margin-bottom:0px;
     font-size:22pt;
     font-weight:normal;}
 
+h2.subt{margin-right:0;	margin-left:15px;margin-bottom:0px;
+	  font-style:normal;
+		color:#0055FF;
+    /*color:#5015CC;*/
+    text-align:left;
+    font-size:15pt;
+    font-weight:normal;}
+
 p  {margin-right:15px;margin-left:15px;margin-top:3px;
 		margin-bottom:3px;
     text-align:justify;	color:#DDDDFF;
